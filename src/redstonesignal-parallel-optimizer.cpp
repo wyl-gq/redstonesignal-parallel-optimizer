@@ -94,6 +94,8 @@ LL_TYPE_INSTANCE_HOOK(
             }
         }
     }
+
+    mHasBeenEvaluated = true;
 }
 
 namespace redstone_optimizer {
